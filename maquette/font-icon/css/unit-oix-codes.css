@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+.icon-home:before { content: '\2302'; } /* '⌂' */
+.icon-vcard:before { content: '\e722'; } /* '' */
+.icon-location:before { content: '\e724'; } /* '' */
+.icon-college:before { content: '\e810'; } /* '' */
+.icon-hospital:before { content: '\e821'; } /* '' */
+.icon-industrial-building:before { content: '\e822'; } /* '' */
+.icon-globe:before { content: '🌎'; } /* '\1f30e' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-search:before { content: '🔍'; } /* '\1f50d' */

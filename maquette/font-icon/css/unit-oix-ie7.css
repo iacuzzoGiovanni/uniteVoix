@@ -1,0 +1,20 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'unit-oix';
+  font-style: normal;
+  font-weight: normal;
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+}
+
+.icon-home { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2302;&nbsp;'); }
+.icon-vcard { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe722;&nbsp;'); }
+.icon-location { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe724;&nbsp;'); }
+.icon-college { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;'); }
+.icon-hospital { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe821;&nbsp;'); }
+.icon-industrial-building { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe822;&nbsp;'); }
+.icon-globe { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f30e;&nbsp;'); }
+.icon-users { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f465;&nbsp;'); }
+.icon-search { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x1f50d;&nbsp;'); }
