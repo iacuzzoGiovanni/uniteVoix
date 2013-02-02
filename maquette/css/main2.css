@@ -96,7 +96,7 @@ body > div,
   position: relative;
 }
 body > div {
-  overflow: hidden;
+  padding-bottom: 1em;
 }
 body > footer {
   background-color: #f23008;
@@ -644,6 +644,118 @@ footer a {
 #acces article:last-child,
 #acces div + article {
   margin-left: 2.083333333%;
+}
+#stage {
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+#stage form {
+  background-color: #eee;
+  padding: 2em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+
+  -webkit-box-sizing: border-box;
+  /* Safari */
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#stage input {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  width: 90%;
+}
+#stage label {
+  font-size: 1.5em;
+  color: #f23008;
+}
+#stage button {
+  padding: 1em;
+  display: block;
+  border: 1px solid #f23008;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #f23008;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #f23008 0%, #d62e08 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f23008), color-stop(100%, #d62e08));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #f23008 0%, #d62e08 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #f23008 0%, #d62e08 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #f23008 0%, #d62e08 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #f23008 0%, #d62e08 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f23008', endColorstr='#d62e08', GradientType=0);
+  /* IE6-9 */
+
+  color: #ffffff;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
+  clear: both;
+  width: 100%;
+}
+#stage div {
+  width: 48%;
+  float: left;
+}
+#stage p + div {
+  margin-right: 2%;
+}
+#stage textarea {
+  width: 90%;
+  resize: none;
+  height: 15em;
+  margin-bottom: 2em;
+}
+#stageMaster {
+  margin-right: 2%;
+}
+#stageMaster,
+#formulaires {
+  width: 48%;
+  float: left;
+  background-color: #eee;
+}
+#stageMaster h1,
+#formulaires h1,
+#enseignements h1 {
+  margin-bottom: 0.5em;
+}
+#stageMaster a,
+#formulaires a,
+#enseignements strong {
+  color: #f23008;
+}
+#enseignements .description,
+#enseignements .cours {
+  float: left;
+  width: 48%;
+}
+#enseignements .description,
+#stageMaster {
+  margin-right: 4%;
+}
+#enseignements ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
 }
 /* ==========================================================================
    Helper classes
