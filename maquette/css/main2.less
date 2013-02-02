@@ -755,12 +755,31 @@ footer a{
 }
 
 #stageMaster, #formulaires{
-    width: 48%;
+    width: 49%;
     float: left;
     background-color: #eee;
 }
 
+#enseignements{
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+#stageMaster, #formulaires, #enseignements{
+    background-color: #eee;
+    padding: 1em;
+    .box-sizing();
+    margin-bottom: 1em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+
 #stageMaster h1, #formulaires h1, #enseignements h1{
+    margin-top: 0;
     margin-bottom: 0.5em;
 }
 
@@ -774,7 +793,7 @@ footer a{
 } 
 
 #enseignements .description, #stageMaster{
-    margin-right: 4%;
+    margin-right: 2%;
 }
 
 #enseignements ul{
