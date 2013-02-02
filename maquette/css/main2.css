@@ -202,6 +202,9 @@ nav {
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
 }
+nav h1 {
+  display: none;
+}
 nav li {
   display: inline-block;
   width: 6.25em;
@@ -575,6 +578,70 @@ footer a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+#acces h2 {
+  color: #f23008;
+  margin-bottom: 0;
+}
+#nousContacter article h2 {
+  color: #f23008;
+}
+#acces h1 {
+  margin-bottom: 0;
+}
+#nousContacter article {
+  background-color: #eee;
+  padding: 1em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+
+  -webkit-box-sizing: border-box;
+  /* Safari */
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 48.93617021%;
+  float: left;
+  height: 20em;
+  margin-bottom: 1em;
+}
+#nousContacter article:nth-child(odd) {
+  margin-left: 2.083333333%;
+}
+#nousContacter article span {
+  display: block;
+}
+#nousContacter article a {
+  color: #f23008;
+  font-weight: 200;
+  display: block;
+}
+#nousContacter div {
+  width: 48%;
+  float: left;
+}
+#nousContacter .tel,
+#nousContacter .fax {
+  margin-top: 1em;
+}
+#acces article p,
+#nousContacter article p,
+#nousContacter article h2 {
+  margin-top: 0;
+}
+.contactMap {
+  height: 460px !important;
+}
+.contactMap,
+#acces article {
+  float: left;
+  width: 48.93617021%;
+}
+#acces article:last-child,
+#acces div + article {
+  margin-left: 2.083333333%;
 }
 /* ==========================================================================
    Helper classes
