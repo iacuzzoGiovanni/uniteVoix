@@ -51,7 +51,7 @@
 
 	$( function () {
 		// --- onload routines
-		$("#unitedStates").before('<div id="Gmap"></div>');
+		$("#aTraversLeMonde").prepend('<div id="Gmap"></div>');
 		generateMap();
 		$("#aTraversLeMonde section").each(function(){
 			generateMarkers($(this).attr('data-lat'), $(this).attr('data-lon'), $(this).find(".icon-location").text());
